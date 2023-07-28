@@ -61,7 +61,7 @@ class TopicoRepositoryTest {
         val topicos = topicoRepository.findByCursoNome(topico.curso.nome, PageRequest.of(0,5))
 
         assertThat(topicos).isNotNull
-        
+
 
     }
 }
